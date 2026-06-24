@@ -5,6 +5,8 @@ This organization contains starter repositories for the hands-on workshop:
 
 The workshop scenario is a Dependabot and CodeQL alert backlog. The goal is to build helper agents that collect evidence, identify missing context, and draft recommendations for human AppSec review.
 
+Important triage rule: stale, missing, or timed-out CodeQL is missing evidence that caps confidence. It is not proof that an alert is low risk.
+
 ## Repositories
 
 | Section | Repository | What attendees start with |
