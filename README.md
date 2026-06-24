@@ -13,9 +13,9 @@ Important triage rule: stale, missing, or timed-out CodeQL is missing evidence t
 | --- | --- | --- |
 | Code Review instructions and skills | `01-code-review-skills-starter` | Repository instructions plus an AppSec triage skill skeleton. |
 | Local custom agents | `02-local-agent-starter` | A personal alert-triage agent template and synthetic Dependabot alert. |
-| Repository-level custom agents | `03-repo-agent-starter` | A repo-aware AppSec reviewer agent plus intentional supply-chain and CodeQL findings. |
-| Local workflow automation | `04-local-workflow-starter` | A repeatable Copilot CLI / GitHub Copilot app workflow prompt and CodeQL alert packet. |
-| Copilot SDK app | `05-sdk-app-starter` | A Python SDK app skeleton with evidence bundle, agents, skills, prompts, and report artifacts. |
+| Repository-level custom agents | `03-repo-agent-starter` | A repo-aware AppSec reviewer agent plus live GitHub alert retrieval, intentional supply-chain finding, and CodeQL finding. |
+| Local workflow automation | `04-local-workflow-starter` | A repeatable Copilot CLI / GitHub Copilot app workflow prompt with live alert retrieval and fixture fallback. |
+| Copilot SDK app | `05-sdk-app-starter` | A Python SDK app skeleton with deterministic evidence bundle, agents, skills, prompts, and report artifacts. |
 
 ## Safety boundary
 
@@ -51,6 +51,8 @@ Humans approve:
 ## How to use these repos
 
 For each section, open the matching repository and follow its README. The repositories are intentionally incomplete: they remove setup friction but still leave the design and implementation work to the attendee.
+
+Repo 03 and Repo 04 prefer live read-only GitHub security alert evidence through `gh api`. Fixture JSON files remain for offline fallback, dry runs, and deterministic SDK-loader exercises.
 
 ## Approved routes for alert triage
 
