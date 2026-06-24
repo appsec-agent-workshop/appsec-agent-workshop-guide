@@ -13,7 +13,7 @@ Important triage rule: stale, missing, or timed-out CodeQL is missing evidence t
 | --- | --- | --- |
 | Code Review instructions and skills | `01-code-review-skills-starter` | Repository instructions plus an AppSec triage skill skeleton. |
 | Local custom agents | `02-local-agent-starter` | A personal alert-triage agent template and synthetic Dependabot alert. |
-| Repository-level custom agents | `03-repo-agent-starter` | A repo-aware AppSec reviewer agent plus minimal repo architecture context. |
+| Repository-level custom agents | `03-repo-agent-starter` | A repo-aware AppSec reviewer agent plus intentional supply-chain and CodeQL findings. |
 | Local workflow automation | `04-local-workflow-starter` | A repeatable Copilot CLI / GitHub Copilot app workflow prompt and CodeQL alert packet. |
 | Copilot SDK app | `05-sdk-app-starter` | A Python SDK app skeleton with evidence bundle, agents, skills, prompts, and report artifacts. |
 
