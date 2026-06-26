@@ -54,7 +54,7 @@ For each section, open the matching repository and follow its README. The reposi
 
 Repo 03 and Repo 04 prefer live read-only GitHub security alert evidence through `gh api`. Fixture JSON files remain for offline fallback, dry runs, and deterministic SDK-loader exercises.
 
-The published repos live in `appsec-agent-workshop`. If you copy or fork them elsewhere, pass the target repository to the fetch scripts, for example `bash scripts/fetch-security-alerts.sh OWNER/03-repo-agent-starter`.
+The published repos live in `appsec-agent-workshop`. If you copy or fork them elsewhere, run the fetch script from Repo 03 or Repo 04 with the target repository, for example `bash scripts/fetch-security-alerts.sh OWNER/REPO`.
 
 ## Approved routes for alert triage
 
